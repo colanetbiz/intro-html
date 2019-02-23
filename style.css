@@ -54,7 +54,8 @@ ul {
     grid-row-start: 2;
 /*    grid-row-start: 2;    This is the original line. Changed for position testing. */
     grid-column-start: 2;
-    width: 200px;
+    width: 300px;
+/*    width: 200px;    This is the original line. Changed for width testing. */    
     font-size: 14pt;
 } 
 /* This is a single-line comment */
