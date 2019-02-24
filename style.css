@@ -71,6 +71,26 @@ li {
     padding-top: 10px;
 }
 
+p {
+    list-style-type: none;
+    grid-row-start: 2;
+/*    grid-row-start: 2;    This is the original line. Changed for position testing. */
+    grid-column-start: 3;
+    width: 300px;
+/*    width: 200px;    This is the original line. Changed for width testing. */    
+    font-size: 14pt;
+} 
+/* This is a single-line comment */
+p:before {
+    content: 'Content Paragraphs';
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(28, 33, 104);
+    background-color: rgba(245, 233, 149, 0.5);
+    font-size: 18pt;
+}
+
+
+
 a {
     color: rgb(28, 33, 104);
     display: inline-block;
