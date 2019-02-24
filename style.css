@@ -71,7 +71,7 @@ li {
     padding-top: 10px;
 }
 
-p {
+p#para1 {
     list-style-type: none;
     grid-row-start: 2;
 /*    grid-row-start: 2;    This is the original line. Changed for position testing. */
@@ -81,7 +81,7 @@ p {
     font-size: 14pt;
 } 
 /* This is a single-line comment */
-p:before {
+p#para1:before {
     content: 'Content Paragraphs';
     font-family: 'Permanent Marker', cursive;
     color: rgb(28, 33, 104);
